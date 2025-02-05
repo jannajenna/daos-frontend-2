@@ -1,0 +1,44 @@
+/* Edit Profile Container */
+.editProfileContainer {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: var(--spacing-md);
+  background-color: var(--color-white);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}
+
+/* Header */
+.header {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-h1);
+  color: var(--color-primary-dark-blue);
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+/* Profile Picture Section */
+.profilePictureSection {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.profilePicture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--color-light-gray);
+  margin: 0 auto var(--spacing-sm);
+}
+
+/* Form Section */
+.formSection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+/* Save Button */
+.saveButton {
+  margin-top: var(--spacing-lg);
+}

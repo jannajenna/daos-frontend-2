@@ -1,0 +1,93 @@
+/* Form Container */
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+/* Label */
+.label {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-body);
+  font-weight: bold;
+  color: var(--color-primary-dark-blue);
+  margin-bottom: var(--spacing-xs);
+  display: block;
+}
+
+/* Common Input Styles */
+.input {
+  width: 100%;
+  padding: var(--spacing-sm);
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-body);
+  border: 1px solid var(--color-gray);
+  border-radius: var(--border-radius);
+  box-sizing: border-box;
+}
+
+.input:focus {
+  border-color: var(--color-primary-dark-blue);
+  outline: none;
+}
+
+/* Date Input */
+.dateInput {
+  background-color: var(--color-light-gray);
+}
+
+/* Email Input */
+.emailInput {
+  background-color: var(--color-white);
+}
+
+/* Password Input */
+.passwordInput {
+  background-color: var(--color-light-gray);
+}
+
+/* Text Input */
+.textInput {
+  background-color: var(--color-white);
+}
+
+/* Select Input */
+.selectInput {
+  background-color: var(--color-white);
+  padding-right: 20px;
+  appearance: none; /* Hides the native dropdown arrow */
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns%3D%22http%3A//www.w3.org/2000/svg%22 width%3D%2210%22 height%3D%226%22%3E%3Cpath fill%3D%22%23333%22 d%3D%22M0 0l5 6 5-6z%22/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right var(--spacing-sm) center;
+  background-size: var(--spacing-sm);
+}
+
+/* Text Area */
+.textArea {
+  background-color: var(--color-white);
+  height: 100px;
+  resize: none; /* Prevent resizing */
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-body);
+  padding: var(--spacing-sm);
+  border-radius: var(--border-radius);
+}
+
+/* Submit Button (specific for forms) */
+.submitButton {
+  width: 100%;
+  padding: var(--spacing-sm);
+  background-color: var(--color-primary-dark-blue);
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--border-radius);
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-body);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/*.submitButton:hover {
+  background-color: #2a215f;
+}*/

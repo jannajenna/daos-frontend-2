@@ -1,0 +1,30 @@
+/* Create Profile Container */
+.createProfileContainer {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: var(--spacing-md);
+  background-color: var(--color-white);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}
+
+/* Header */
+.header {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-h1);
+  color: var(--color-primary-dark-blue);
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+/* Form Section */
+.formSection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+/* Submit Button */
+.submitButton {
+  margin-top: var(--spacing-lg);
+}
