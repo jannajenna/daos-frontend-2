@@ -1,13 +1,14 @@
 import React from "react";
-import "./LandigPage.module.css";
+import"../../index.css"
+import styles from "./LandigPage.module.css";
 import { PrimaryButton, SecondaryButton } from "../../components";
 
 const LandingPage: React.FC = () => {
   return (
     <main className="landingContainer">
       <header className="header">
-        <h1>Musik Samspil</h1>
-        <p className="subHeader">Stedet hvor musikere finder musikere og spiller musik sammen</p>
+        <h1 className={`${styles.header}`}>Musik Samspil</h1>
+        <h1 className="h1-red">Stedet hvor musikere finder musikere og spiller musik sammen</h1>
       </header>
       <section className="loginBox">
         <PrimaryButton label="Opret med e-mail" />

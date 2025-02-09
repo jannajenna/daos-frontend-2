@@ -74,3 +74,43 @@ h3 {
 .full-width {
   width: 100%;
 }
+
+.h1-red{
+  font-family: var(--font-primary);
+  font-size: var(--font-size-h1);
+  color: var(--color-primary-red);
+  font-weight: 600;
+}
+
+.h1-blue{
+  font-family: var(--font-primary);
+  font-size: var(--font-size-h1);
+  color: var(--color-primary-dark-blue);
+}
+.header3-red{
+  font-family: var(--font-primary);
+  font-size: var(--font-size-h3);
+  color: var(--color-primary-red);
+}
+.header3-blue{
+  font-family: var(--font-primary);
+  font-size: var(--font-size-h3);
+  color: var(--color-primary-dark-blue);
+}
+.form-label{
+  font-family: var( --font-secondary);
+  font-size: var(--font-size-body);
+  font-weight: 700;
+  color: var(--colo-primary-dark-blue);
+}
+.body-small{
+  font-family: var(--font-secondary);
+  font-family: var(--font-size-small);
+  color: var(--color-dark-gray);
+}
+.tiny-button{
+  font-family: var( --font-secondary);
+  font-size: var(--font-size-tiny);
+  font-weight: 700;
+  color: var(--colo-primary-dark-blue)
+}
